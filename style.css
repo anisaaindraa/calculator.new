@@ -1,0 +1,48 @@
+/* Tema Barbie */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #ff66b2; /* Warna pink Barbie */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: #fff; /* Latar belakang putih */
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    display: flex; /* Tambahkan display flex untuk mengatur tampilan */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    align-items: center; /* Pusatkan elemen di tengah */
+}
+
+.display {
+    background-color: #ffccff; /* Warna latar belakang display */
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    width: 100%; /* Agar layar mengisi seluruh lebar kalkulator */
+}
+
+#result {
+    width: 100%;
+    padding: 5px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #ffccff; /* Warna latar belakang display */
+    border: none;
+    outline: none;
+    text-align: right; /* Alinhan teks ke kanan pada layar */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+    background-color: #ffccff; /* Warna latar belakang display */
+    border-radius: 0 0 10px 10px;
+    width: 100%; /* Agar tombol-tombol mengisi seluruh lebar kalkulator */
+}
